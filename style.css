@@ -1,0 +1,91 @@
+:root {
+    --primary-color:rgba(196, 196, 196, 1);
+    --secondary-color: rgb(255,255,255);
+    --tertiary-color:rgba(230, 230, 230, 1);
+    --font-title-color: rgba(0, 86, 119, 1);
+    --footer-color: #005677
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--tertiary-color);
+} 
+header div {
+    background-color: var(--primary-color);
+    color: var(--font-title-color);
+    font-size: 1.2rem;
+    font-weight:bold;
+    letter-spacing: 0.8rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    word-spacing: 0.2rem;
+}
+main {
+    background-color: var(--secondary-color);
+    margin-top: 8rem;
+}
+.sub-title {
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+}
+h2 {
+    color: var(--font-title-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+    line-height: 1.7rem;
+    margin-left: 1rem;
+    padding: 0.2rem;
+}
+.personal-data {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    padding-bottom: 0.4rem;
+}
+.personal-data span {
+    font-weight: bold;
+    font-style: italic;
+}
+.data-container{
+    display: flex;
+    font-size: 1.2rem;
+    margin-left: 1.2rem;
+    padding: 1rem;
+    padding-bottom: 0.1rem;
+
+}
+.years {
+    font-weight: bold;
+    margin-right: 0.2rem;
+}
+footer {
+    background-color: var(--footer-color);
+    color: white;
+    font-size:1.4rem ;
+    font-weight: bold;
+    margin-top: 8rem;
+    text-align: center;
+    padding: 0.5rem; 
+}
+footer span img {
+    height: 1.2rem;
+    margin-left: 1.8rem;
+    width: 1.2rem;
+}
+
+
+    
